@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nBd-ok-Byh">
+                                <rect key="frame" x="76" y="269" width="222" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222" id="KFU-sc-FGC"/>
+                                    <constraint firstAttribute="height" constant="128" id="i30-yi-mpg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Amazing places " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVQ-iO-TCY">
+                                <rect key="frame" x="91" y="505" width="193" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="5WP-nN-FgG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="193" id="DxY-2Z-1Oe"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="WaA-l5-pYh"/>
+                                    <constraint firstAttribute="height" constant="26" id="ZPn-fX-uLH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64534083549999999" green="0.32556635249999999" blue="0.2990276945" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.58659327033612074" blue="0.51434166162562689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nBd-ok-Byh" secondAttribute="bottom" constant="270" id="0Wk-01-ahA"/>
+                            <constraint firstItem="XVQ-iO-TCY" firstAttribute="top" secondItem="nBd-ok-Byh" secondAttribute="bottom" constant="108" id="5za-kT-VPh"/>
+                            <constraint firstItem="XVQ-iO-TCY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="JHQ-gq-HFB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XVQ-iO-TCY" secondAttribute="bottom" constant="136" id="SRQ-Om-0Ea"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nBd-ok-Byh" secondAttribute="trailing" constant="77" id="ead-Gz-TrS"/>
+                            <constraint firstItem="nBd-ok-Byh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="mi7-EW-xQy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XVQ-iO-TCY" secondAttribute="trailing" constant="91" id="tvm-Td-d2B"/>
+                            <constraint firstItem="nBd-ok-Byh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="249" id="vow-fE-WOd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons" width="371" height="196"/>
+    </resources>
+</document>
